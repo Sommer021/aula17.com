@@ -1,0 +1,68 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image:url(../img/musc.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+section.cabecalho{
+	text-align: center;
+	width:60vw;
+	height:10vh;
+	margin-left: 20vw;
+	background-color:gray ;
+	border-radius: 16px;
+	margin-top: 5vh;
+	flex-direction: column;
+}
+section.cabecalho h1{
+	font-family:"Honk", system-ui;
+	font-size: 2em;
+}
+section.conteudo{
+	width: 90vw;
+	height: 60vh;
+	margin-left: 5vw;
+	background-color:gray;
+	border-radius: 16px;
+	margin-top: 2vh;
+}
+section.conteudo div p{
+	font-size: 1em;
+	color:white;
+	text-align: center;
+	margin-right: 50%;
+	margin-left: 25%;
+}
+section.conteudo audio{
+	margin: 0.5px;
+	margin-left: 5%;
+}
+#musica{
+	font-size: 2em;
+	margin-left: 25%;
+}
+#principal{
+	display: flex;
+	justify-content: center;
+}
+#principal div{
+	margin-top: 3%;
+	font-size: 2em;
+}
+#principal div ul{
+	margin-top: 20%;
+}
+#principal div ul li{
+	margin-top: 30%;
+}
+#audio2 div{
+	margin-top: 4%;
+	display: flex;
+}
+#audio2 audio{
+	margin-top: 10%;
+}
